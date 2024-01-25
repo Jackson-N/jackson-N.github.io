@@ -20,12 +20,12 @@
     background-color: cornflowerblue;
 }
 
-#applebees
+#profilePic
 {
-    height: fit-content;
+    border-radius: 10px;
 }
 
-p, legend, #title, .outerlabel
+legend, #title, .outerlabel
 {
     font-weight: bold;
 }
@@ -37,7 +37,7 @@ p, legend, #title, .outerlabel
 
 h1
 {
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: capitalize;

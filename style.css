@@ -9,54 +9,90 @@
     width: 100%;
 }
 
-.col-8, p, .innerlabel, #title
-{
-    background-color:  darkgray;
+.col-8,
+p,
+.innerlabel,
+#title {
+    background-color: rgb(178, 177, 177);
     font-size: 24px;
 }
 
-.col-2, .outerlabel
-{
+.col-2,
+.outerlabel {
     background-color: cornflowerblue;
 }
 
-#profilePic
-{
+#profilePic {
     border-radius: 10px;
 }
 
-legend, #title, .outerlabel
-{
+legend,
+#title,
+.outerlabel {
     font-weight: bold;
 }
 
-.outerlabel
-{
+.outerlabel {
     text-align: center;
 }
 
-h1
-{
+h1, .navbar-brand {
     text-align: left;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: capitalize;
 }
- 
+
 @media only screen and (min-width: 768px) {
+
     /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
 }
 
 [class*="col-"] {
@@ -70,7 +106,7 @@ h1
     display: table;
 }
 
-/** Image - https://www.w3schools.com/css/css_rwd_grid.asp **/   
+/** Image - https://www.w3schools.com/css/css_rwd_grid.asp **/
 img {
     max-width: 100%;
     height: auto;
@@ -78,5 +114,57 @@ img {
 
 /** Overflow (for tables) - https://www.w3schools.com/howto/howto_css_table_responsive.asp **/
 .overflow {
-    overflow-x:auto;
+    overflow-x: auto;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    /*color: white; */
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #6f7175;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /*background-color: #f9f9f9; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar-brand
+{
+    font-size: 32px;
 }

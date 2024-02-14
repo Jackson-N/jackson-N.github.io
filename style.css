@@ -168,3 +168,9 @@ img {
 {
     font-size: 32px;
 }
+
+#icon
+{
+    height: 64px;
+    width: auto;
+}

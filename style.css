@@ -1,7 +1,12 @@
 /** Grid system - https://www.w3schools.com/css/css_rwd_grid.asp **/
 * {
     box-sizing: border-box;
-    background-color: bisque;
+    background-color: #f1fada;
+}
+
+body, .row, .col-1, .col-5, .col-4, .col-6
+{
+    background-color: #265073;
 }
 
 /* For mobile phones: */
@@ -9,12 +14,19 @@
     width: 100%;
 }
 
-.col-8,
-p,
+/*
+#265073
+#2d9596
+#9ad0c2
+#f1fada
+*/
+
+.col-8, 
 .innerlabel,
 #title {
-    background-color: rgb(178, 177, 177);
+    background-color:#9ad0c2;
     font-size: 24px;
+    border-radius: 5px;
 }
 
 .col-2,
@@ -24,6 +36,8 @@ p,
 
 #profilePic {
     border-radius: 10px;
+    height: fit-content;
+    width: auto;
 }
 
 legend,
@@ -36,11 +50,18 @@ legend,
     text-align: center;
 }
 
-h1, .navbar-brand {
+h1, .navbar-brand 
+{
     text-align: left;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: capitalize;
+    font-size: 56px;
+}
+
+h3
+{
+    font-size: 24.75px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -134,8 +155,9 @@ img {
 }
 
 .navbar a:hover,
-.dropdown:hover .dropbtn {
-    background-color: #6f7175;
+.dropdown:hover .dropbtn
+{
+    background-color: #9ad0c2;
 }
 
 .dropdown-content {
@@ -173,4 +195,35 @@ img {
 {
     height: 64px;
     width: auto;
+}
+
+.container-fluid, .navbar-toggler-icon, #big-name, .navbar-collapse, .nav-link, .btn-primary
+{
+    background-color: #2d9596;
+}
+
+.name, p
+{
+    background-color: #f1fada;
+    font-size: 24px;
+    border-spacing: 10px;
+}
+
+.top
+{
+    border-bottom: none;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.bot
+{
+    border-top: none;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.mid
+{
+    font-size: 24px;
 }

@@ -36,8 +36,8 @@ body, .row, .col-1, .col-5, .col-4, .col-6
 
 #profilePic {
     border-radius: 10px;
-    height: fit-content;
-    width: auto;
+    width: fit-content;
+    height: auto;
 }
 
 legend,

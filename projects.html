@@ -33,7 +33,23 @@
                 </ul>
             </div>
         </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="collapse navbar-collapse"></i>
+        </a>
+
     </nav>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("navbar-toggler");
+            if (x.className === "navbar-nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar-nav";
+            }
+        }
+    </script>
 
     <div class="container">
 

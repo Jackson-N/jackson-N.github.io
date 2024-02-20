@@ -6,7 +6,10 @@
     <title>Jackson Neal</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navBar.css">
 </head>
@@ -35,7 +38,22 @@
                 </ul>
             </div>
         </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="collapse navbar-collapse"></i>
+        </a>
     </nav>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("navbar-toggler");
+            if (x.className === "navbar-nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar-nav";
+            }
+        }
+    </script>
 
 
 
@@ -92,12 +110,13 @@
             <div class="col-4"></div>
             <div class="col-4 center">
                 <i class="fa-brands fa-linkedin-in"></i>
-                <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/jackson-neal-/" role="button">LinkedIn</a>
+                <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/jackson-neal-/"
+                    role="button">LinkedIn</a>
 
                 <a class="btn btn-primary btn-lg" href="mailto: Jackson.neal@comcast.net" role="button">Email</a>
 
                 <a class="btn btn-primary btn-lg" href="https://github.com/Jackson-N" role="button">GitHub</a>
-                
+
             </div>
             <div class="col-4"></div>
         </div>

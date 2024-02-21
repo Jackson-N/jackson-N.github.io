@@ -224,6 +224,12 @@ img {
     background-color: #2d9596;
 }
 
+#big-name
+{
+    font-weight: bold;
+    font-size: 36px;
+}
+
 .name, p
 {
     background-color: #f1fada;

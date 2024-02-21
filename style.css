@@ -4,7 +4,7 @@
     background-color: #f1fada;
 }
 
-body, .row, .col-1, .col-5, .col-4, .col-6
+body, .row, .col-1, .col-5, .col-4, .col-6, .banner, hr, .col-2, .col-8
 {
     background-color: #265073;
 }
@@ -20,18 +20,12 @@ body, .row, .col-1, .col-5, .col-4, .col-6
 #9ad0c2
 #f1fada
 */
-
-.col-8, 
+ 
 .innerlabel,
 #title {
     background-color:#9ad0c2;
     font-size: 24px;
     border-radius: 5px;
-}
-
-.col-2,
-.outerlabel {
-    background-color: cornflowerblue;
 }
 
 #profilePic {
@@ -48,6 +42,19 @@ legend,
 
 .outerlabel {
     text-align: center;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.banner
+{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+
 }
 
 h1, .navbar-brand 
@@ -155,7 +162,7 @@ img {
 }
 
 .navbar a:hover,
-.dropdown:hover .dropbtn
+.dropdown:hover .dropbtn, .navbar-expand-lg
 {
     background-color: #9ad0c2;
 }
@@ -189,6 +196,16 @@ img {
 .navbar-brand
 {
     font-size: 32px;
+}
+
+.nav-link-active, .nav-link
+{
+    font-size: 24px;
+}
+
+.nav-link-active
+{
+    font-weight: bold;
 }
 
 #icon

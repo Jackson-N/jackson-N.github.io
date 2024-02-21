@@ -121,6 +121,11 @@ h3
     .col-12 {
         width: 100%;
     }
+
+    .banner
+    {
+        margin-top: 20px;
+    }
 }
 
 [class*="col-"] {

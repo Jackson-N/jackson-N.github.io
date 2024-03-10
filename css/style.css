@@ -203,7 +203,7 @@ img {
     font-size: 32px;
 }
 
-.nav-link-active, .nav-link
+.nav-link
 {
     font-size: 24px;
 }
@@ -211,6 +211,7 @@ img {
 .nav-link-active
 {
     font-weight: bold;
+    font-size: 24px;
 }
 
 #icon

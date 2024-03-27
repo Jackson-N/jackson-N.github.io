@@ -220,6 +220,13 @@ img {
     width: auto;
 }
 
+#tools
+{
+    height: 128px;
+    width: auto;
+    background-color: #265073;
+}
+
 .container-fluid, .navbar-toggler-icon, #big-name, .navbar-collapse, .nav-link, .btn-primary
 {
     background-color: #2d9596;
